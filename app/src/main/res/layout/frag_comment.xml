@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/comment_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageButton
+        android:id="@+id/post_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="@dimen/spacing_normal"
+        android:src="@drawable/asl_add_comment"
+        android:visibility="visible" />
+
+
+    <!--<view-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1px"-->
+    <!--android:background="#a3a3a3" />-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/comment_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:id="@+id/comment_no_long"-->
+        <!--android:visibility="gone"-->
+        <!--android:orientation="vertical">-->
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/sofa"/>-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:textColor="@color/colorGray"-->
+        <!--android:text="深度长评虚位以待"/>-->
+        <!--</LinearLayout>-->
+    </FrameLayout>
+
+
+</LinearLayout>

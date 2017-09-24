@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="OverFlowMenuTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+    
+    <style name="ShareDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyDialogStyle"></style>
+
+    <style name="push_tag"></style>
+
+    <style name="push_alias"></style>
+    <style name="TextAppearance.Comment" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_secondary_dark</item>
+        <!--<item name="android:letterSpacing">0.01</item>-->
+    </style>
+    <style name="TextAppearance.CommentAuthor.DesignerNews">
+        <item name="android:textColor">@color/designer_news_author_name</item>
+    </style>
+    <style name="TextAppearance.CommentAuthor" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFeatureSettings">smcp, onum</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    <style name="TextAppearance.CommentAuthor.Dribbble">
+        <item name="android:textColor">@color/dribble_comment_author</item>
+    </style>
+
+    <style name="TextAppearance.FloatLabelHint" parent="@android:style/TextAppearance.Material.Caption">
+        <item name="android:textColor">?android:colorAccent</item>
+    </style>
+
+
+</resources>

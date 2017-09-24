@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_list_home"
+        android:icon="@drawable/ic_home"
+
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/nav_list_daily_psy"
+        android:actionLayout="@layout/layout_menu_nav"
+        android:orderInCategory="13"
+        android:title="@string/daily_psy"/>
+
+    <item
+        android:id="@+id/nav_list_recommended"
+        android:title="@string/recommended"
+        android:orderInCategory="12"/>
+
+    <item
+        android:id="@+id/nav_list_movie"
+        android:title="@string/movie"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/nav_list_no_boring"
+        android:title="@string/no_boring"
+        android:orderInCategory="11"/>
+
+    <item
+        android:id="@+id/nav_list_design"
+        android:title="@string/design"
+        android:orderInCategory="4"
+        />
+    <item
+        android:id="@+id/nav_list_corporation"
+        android:title="@string/corporation"
+        android:orderInCategory="5"
+        />
+
+    <item
+        android:id="@+id/nav_list_finance"
+        android:title="@string/finance"
+        android:orderInCategory="6"
+        />
+
+    <item
+        android:id="@+id/nav_list_internet_security"
+        android:title="@string/internet_security"
+        android:orderInCategory="10"
+        />
+
+    <item
+        android:id="@+id/nav_list_game"
+        android:title="@string/start_game"
+        android:orderInCategory="2"
+        />
+
+    <item
+        android:id="@+id/nav_list_music"
+        android:title="@string/music"
+        android:orderInCategory="7"
+        />
+
+    <item
+        android:id="@+id/nav_list_cartoon"
+        android:title="@string/cartoon"
+        android:orderInCategory="9"
+        />
+
+    <item
+        android:id="@+id/nav_list_PE"
+        android:title="@string/PE"
+        android:orderInCategory="8"
+        />
+</menu>

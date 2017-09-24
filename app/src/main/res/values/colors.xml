@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00A2EA</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#64ff4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#ff24aa</color>
+    <color name="colorGray">#a3a3a3</color>
+    <color name="photoback">#343434</color>
+    <color name="touch_effect">#9ccc</color>
+    <color name="background_light">#fafafa</color>
+    <color name="selected_comment_background">#ffffffff</color>
+    <color name="designer_news_story_comment_background">@android:color/transparent</color>
+    <color name="designer_news_link_highlight">#b303a9f4</color>
+    <color name="text_secondary_dark">#8a000000</color>
+    <color name="designer_news_author_name">#000133</color>
+    <color name="comment_bubble">#777</color>
+    <color name="comment_line_stroke_color">#fbfbfb</color>
+    <color name="content_placeholder">#ffe0e0e0</color>
+    <color name="mid_grey">#40808080</color>
+    <color name="dribbble_link_highlight">#b3f06292</color>
+    <color name="text_primary_light">#ffffffff</color>
+    <color name="dribbble">#fff06292</color>
+    <color name="dark_icon">#99000000</color>
+    <color name="fab_heart_empty">@color/text_primary_light</color>
+    <color name="fab_heart_full">#ffffffff</color>
+    <color name="inline_action_icon">#ff757575</color>
+    <color name="text_primary_dark">#de000000</color>
+</resources>

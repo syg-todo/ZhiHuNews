@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="anim_duration_long">500</integer>
+    <integer name="rapid_animation">120</integer>
+    <integer name="fab_expand_duration">360</integer>
+    <integer name="comment_expand_collapse_duration">120</integer>
+    <integer name="comment_lines_add_viewport_height" >24</integer>
+    <integer name="comment_lines_add_viewport_width">24</integer>
+    <integer name="comment_lines_add_duration">120</integer>
+    <integer name="comment_lines_add_center_x">12</integer>
+    <integer name="comment_lines_add_center_y">11</integer>
+    <integer name="comment_line_stroke_width">2</integer>
+</resources>

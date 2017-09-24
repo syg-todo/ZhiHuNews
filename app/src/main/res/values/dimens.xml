@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="spacing_nano">10dp</dimen>
+    <dimen name="minHeight">40dp</dimen>
+    <dimen name="z_card">2dp</dimen>
+
+    <dimen name="designer_news_story_comment_elevation">0dp</dimen>
+    <dimen name="designer_news_story_comment_action_elevation">2dp</dimen>
+    <dimen name="designer_news_story_comment_horizontal_padding">0dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_micro">8dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="avatar_bounds">48dp</dimen>
+    <dimen name="avatar_margin">12dp</dimen>
+    <dimen name="avatar_padding">4dp</dimen>
+    <dimen name="touch_raise">6dp</dimen>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="avatar_ripple_radius">20dp</dimen>
+    <dimen name="comment_actions_height">40dp</dimen>
+    <dimen name="comment_like_margin_adjustment">-8dp</dimen>
+    <dimen name="til_margin_fix">-4dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+</resources>

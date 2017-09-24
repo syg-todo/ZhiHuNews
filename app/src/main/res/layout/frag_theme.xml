@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/theme_img_main"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/theme_txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/theme_img_main"
+                android:gravity="left"
+                android:padding="16dp"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editor"
+                android:textColor="#6c6c6c" />
+
+
+            <com.example.lenove.zhihunews.entity.CircleImageView
+                android:id="@+id/theme_img_editor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/test"
+                />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_theme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+</ScrollView>
